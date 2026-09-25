@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-25T14:21:06Z" name="Automation Exercise Test Suite" finished-at="2026-09-25T14:21:25Z" duration-ms="19057">
+    <groups>
+    </groups>
+    <test started-at="2026-09-25T14:21:06Z" name="Login Test" finished-at="2026-09-25T14:21:25Z" duration-ms="19057">
+      <class name="com.automationexercise.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercise.tests.LoginTest@12bfd80d]" started-at="2026-09-25T20:21:06Z" name="setUp" finished-at="2026-09-25T20:21:18Z" duration-ms="11592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyValidUserLogin()[pri:1, instance:com.automationexercise.tests.LoginTest@12bfd80d]" started-at="2026-09-25T20:21:18Z" name="verifyValidUserLogin" description="Verify user can login with valid credentials" finished-at="2026-09-25T20:21:25Z" duration-ms="7012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidUserLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationexercise.tests.LoginTest@12bfd80d]" started-at="2026-09-25T20:21:25Z" name="tearDown" finished-at="2026-09-25T20:21:25Z" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationexercise.tests.LoginTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Automation Exercise Test Suite -->
+</testng-results>
