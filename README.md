@@ -25,7 +25,6 @@ This project automates the **Login User with Valid Credentials** scenario on [Au
 7. Verify **"Logged in as username"**.
 8. Capture a screenshot if the test fails.
 
-> **Note:** A user account must be created manually before running the automation, as required by the assignment.
 
 ## Project Structure
 
@@ -66,52 +65,6 @@ AutomationExerciseSelenium/
 └── test-output/
 ```
 
-## Configuration
-
-Update your registered credentials in:
-
-```text
-src/test/resources/config.properties
-```
-
-Example:
-
-```properties
-browser=chrome
-url=https://www.automationexercise.com/
-
-email=YOUR_REGISTERED_EMAIL
-password=YOUR_REGISTERED_PASSWORD
-
-headless=false
-implicitWait=5
-explicitWait=15
-```
-
-**Do not commit real credentials to GitHub.**
-
-## Run the Tests
-
-Clone the repository:
-
-```bash
-git clone YOUR_REPOSITORY_URL
-cd AutomationExerciseSelenium
-```
-
-Run the TestNG suite using Maven:
-
-```bash
-mvn clean test
-```
-
-Or run `testng.xml` directly from Eclipse/STS:
-
-```text
-Right Click testng.xml
-→ Run As
-→ TestNG Suite
-```
 
 ## Reports
 
@@ -127,12 +80,6 @@ Available reports include:
 * `index.html`
 * `emailable-report.html`
 * Failure screenshots
-
-Open the following file to view the detailed Extent Report:
-
-```text
-test-output/ExtentReport.html
-```
 
 ## Framework Features
 
